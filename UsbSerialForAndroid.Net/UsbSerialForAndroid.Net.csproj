@@ -8,7 +8,27 @@
 		<AssemblyName>UsbSerialForAndroid.Net</AssemblyName>
 		<Authors>LUJIAN2020</Authors>
 		<Version>1.0.2</Version>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>UsbSerialForAndroid.Net</Title>
+		<PackageProjectUrl>https://github.com/Wertyuud/UsbSerialForAndroid.Net</PackageProjectUrl>
+		<Description>This is an android USB serial communication driver library .</Description>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<IncludeSymbols>True</IncludeSymbols>
+		<PackageTags>android usb serial port</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\LICENSE">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 	<ItemGroup>
 	  <Compile Update="AppResources.Designer.cs">
